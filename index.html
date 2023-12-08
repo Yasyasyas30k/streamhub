@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Page d'Accueil</title>
+    <link rel="stylesheet" href="/img/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+
+<body> 
+
+    <div class="menu">
+        <h2 id="menuu">Menu</h2>
+        <ul>
+            <li><a href="démarche suivi/demarchesuivi.html"><h4>STREAM SELECTIONS</h4></a></li>
+            <li><a href="description-carto/index.html"><h4>POUR VOUS</h4></a></li>
+            <li><a href="analyse-risques/analyse_risques.html"><h4>DECOUVRIR</h4></a></li>
+            <li><a href="analyse-risques/analyse_risques.html"><h4>AUTRES</h4></a></li>
+            <li><a href="procédure_suivre/index.html"><h4>REGLAGES</h4></a></li>
+           
+        </ul>
+        <div class="logo-container2 text-center">
+        </div>    
+    </div>
+    <div id="loading-animation" style="display: none;">
+        <div class="loader"></div>
+    </div>
+    <div class="container">
+        <div class="recent-site">
+            <img src="/img/twitch-4aRVhk.png" alt="Logo du site" class="imgaccueil">
+            <h2 class="text-center">Bienvenue sur le STREAM FR TOP WOAHH</h2>
+            <p class="text-center">ceci est un tp soyez indulgent</p>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-interval="3500">
+                        <img src="/img/aminematue-sur-twitch.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-interval="3500">
+                        <img src="/img/gmk.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-interval="3500">
+                        <img src="/img/maddy-burciaga-et-gmk-accuses-de-ne-pas-respecter-le-confinement-ils-exasperent-les-internautes.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Précédent</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Suivant</span>
+                </a>
+            </div>
+            <div class="recent-site2">
+                <h1 class="text-center">STREAMEURS N°1</h1>
+                <div class="text-center">
+                    <img class="imgaccueil img-fluid" src="/img/kameto-commentateur-esport.avif" alt="image d'Accueil">
+                </div>
+            </div>
+            <p class="text-center">source : mon imagination</p>
+        </div>
+    </div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>   
+<script>
+    window.addEventListener("load", function() {
+        document.getElementById("loading-animation").style.display = "none";
+    });
+    
+    window.addEventListener("beforeunload", function() {
+        document.getElementById("loading-animation").style.display = "block";
+    });
+    </script>
+</body>
+
+</html>

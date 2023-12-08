@@ -1,0 +1,91 @@
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('/img/violet.jpg');
+}
+
+h1 {
+    
+    font-size: 2em;
+    margin-bottom: 20%;
+    text-align: center;
+}
+
+.container {
+    max-width: 120%;
+    margin: 0 auto;
+    padding: 2%;
+}
+
+.header {
+    background-color: #18aff0;
+    color: #fff;
+    padding: 15%;
+    text-align: center;
+}
+
+.back-button svg {
+    fill: #ede8e8; /* Remplacez par la couleur que vous voulez */
+}
+
+.back-button {
+
+    position: absolute;
+    top: 10px;
+    height: 50px;
+    width: 40px;
+    left: 15px;
+
+}
+
+.main-content {
+    color: #fff;
+    background: -moz-linear-gradient(-45deg, #ce37b5 0%, #1C6EA4 62%, #c537bc 100%);
+    background: -webkit-linear-gradient(-45deg, #ce37b5 0%, #1C6EA4 62%, #c537bc 100%);
+    background: linear-gradient(-45deg, #ce37b5 0%, #1C6EA4 62%, #c537bc 100%);
+    padding: 10%;
+    border-radius: 5px;
+    box-shadow: 0 0 10% rgba(0, 0, 0, 0.1);
+    margin-top: 1%;
+}
+
+.logo-container {
+    text-align: center;
+}
+
+.logo-container img {
+    margin: 0% auto;
+    width: 20%;
+    max-width: 50%; /* Ajustez la taille selon vos préférences */
+    border: 4% solid #18aff0; /* Bordure */
+    border-radius: 8%; /* Coins arrondis */
+    
+}
+
+.content-text {
+    max-width: 800%; /* Ajustez la largeur selon vos préférences */
+    margin: 0 auto;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+  
+  h1 {
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  h2 {
+    text-align: center;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  p {
+    text-align: center;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
