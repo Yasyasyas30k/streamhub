@@ -1,188 +1,76 @@
 
+
 body {
-    font-family: Arial, sans-serif;
-    display: flex;
+    font-family: 'Open Sans', sans-serif;
     margin: 0;
-    background-image: url('/WA/accueil/img/fond.jpg');
-  }
-  
-  .main-content{
-    margin-top: 80%;
-    margin-left: 300%;
-    margin-right: 300%;
-    padding: 30%;
-    background-color: #ffffffb4;
-    box-shadow: 0 0 10%30% rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-  
-  }
-  
-  .menu {
-    max-height: fit-content;
-    background: #f0eded;
-    background: -moz-linear-gradient(-45deg, #ce37b5 0%, #1C6EA4 62%, #c537bc 100%);
-    background: -webkit-linear-gradient(-45deg, #ce37b5 0%, #1C6EA4 62%, #c537bc 100%);
-    background: linear-gradient(-45deg, #ce37b5 0%, #1C6EA4 62%, #c537bc 100%);
-    color: #0c405b;
-    padding: 2%;
-  }
-  
-  .menu ul {
-    list-style:disc;
     padding: 0;
-  }
-  
-  .menu h4 {
-    color: #fff;
-    display: block;
-    padding: 8%10%;
-    margin-bottom: 5%;
-    border-radius: 10%5%;
-    text-decoration: none; 
-  }
-  .menu h4:hover {
-    color: #0c405b;
-    transition: all 0.5s ease-in-out;
-  
-  
-  }
-  
-  .menu h4::before {
-    content: "";
-    position: absolute;
-    width: 17%;
-    height: 20%;
-    border-radius: 18%;
-    visibility: visible;
-    transform: scaleX(0);
-    transition: all 0.5s ease-in-out;
-  
-  }
-  
-  .menu a {
-    text-decoration: none !important;
-  }
-  
-  /* Pour les écrans de taille moyenne (tablette) */
-  @media (max-width: 768%) {
-    .menu a::before {
-      width: 20%;
-      height: 15%;
-      left: 25%;
-    }
-  }
-  
-  @media (max-width: 414px) and (max-height: 896px) {
+    background-image: url('/img/violet.jpg');
+}
+
+h1 {
     
-    body {
-        font-size: 200%;
-        width: 414px;
-    }
-  
-    .menu {
-        width: 414px;
-        height: 15%;
-    }
-  
-    .menu ul li {
-        padding: 25px;
-        height: 15%;
-        left: 5%;
-        right: 50px;
-    }
-    
-    .recent-site2{
-      padding: 10%;
-      width: 350px;
-    }
-  
-    .recent-site{
-      padding: 10%;
-      width: 450px; 
-    }
-   
-  }
-  .imgaccueil {
-    margin-top: 2%;
-    margin-bottom: 10%;
-    border-radius: 8px;
-    border :#fcfdfd 2% solid;
-    padding: auto;
-    
-    max-width: 50%;
-    height: 50%;  
-    width: auto;    
-    object-fit: contain;  
-  }
-  
-  .bordaccueil {
-    color: rgb(252, 248, 248);
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border: 0%;
-    border-radius: 3%;
-    background: #0c3f5b9a;
-    padding: 20%;
-    animation: fadeIn 2s;
-  }
-  
-  .intro-text {
+    font-size: 2em;
     margin-bottom: 20%;
-  }
-  
-  .recent-site {
-    color: white;
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    max-width: 120%;
     margin: 0 auto;
-    padding: 7%;
-    border-style:outset;
-    border-radius: 50px;
+    padding: 2%;
+}
+
+.header {
+    background-color: #18aff0;
+    color: #fff;
+    padding: 15%;
+    text-align: center;
+}
+
+.back-button svg {
+    fill: #ede8e8; /* Remplacez par la couleur que vous voulez */
+}
+
+.back-button {
+
+    position: absolute;
+    top: 10px;
+    height: 50px;
+    width: 40px;
+    left: 15px;
+
+}
+
+.main-content {
+    color: #fff;
     background: -moz-linear-gradient(-45deg, #ce37b5 0%, #1C6EA4 62%, #c537bc 100%);
     background: -webkit-linear-gradient(-45deg, #ce37b5 0%, #1C6EA4 62%, #c537bc 100%);
     background: linear-gradient(-45deg, #ce37b5 0%, #1C6EA4 62%, #c537bc 100%);
-  }
-  
-  
-  
-  .recent-site2 {
-    color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10%;
+    border-radius: 5px;
+    box-shadow: 0 0 10% rgba(0, 0, 0, 0.1);
+    margin-top: 1%;
+}
+
+.logo-container {
+    text-align: center;
+}
+
+.logo-container img {
+    margin: 0% auto;
+    width: 20%;
+    max-width: 50%; /* Ajustez la taille selon vos préférences */
+    border: 4% solid #18aff0; /* Bordure */
+    border-radius: 8%; /* Coins arrondis */
+    
+}
+
+.content-text {
+    max-width: 800%; /* Ajustez la largeur selon vos préférences */
     margin: 0 auto;
-    padding: 15%;
-    border: 1% solid #ccc;
-    border-radius: 8px;
-    background: -moz-linear-gradient(-45deg, #37ce62 0%, #1C6EA4 62%, #C59237 100%);
-    background: -webkit-linear-gradient(-45deg, #37ce62 0%, #1C6EA4 62%, #C59237 100%);
-    background: linear-gradient(135deg, #37ce62 0%, #1C6EA4 62%, #C59237 100%);
-  }
-  
-  .recent-site2 p {
-    text-align: center;
-  }
-  
-  
-  .logo-container {
-    text-align: center;
-  }
-  
-  .logo-container2 {
-    text-align: center;
-  }
-  
-  .logo-container2 img {
-    margin-top: 100%;
-    max-width: 100%; 
-    border-radius: 8%;   
-  }
-  
-  
-  .content-text {
-    max-width: 800%;; 
-    margin: 0 auto;
-  }
-  
-  @keyframes fadeIn {
+}
+
+@keyframes fadeIn {
     0% {opacity: 0;}
     100% {opacity: 1;}
   }
@@ -192,6 +80,7 @@ body {
   }
   
   h2 {
+    text-align: center;
     animation: fadeIn 2s ease-in-out;
   }
   
@@ -200,61 +89,3 @@ body {
     animation: fadeIn 2s ease-in-out;
   }
   
-  html {
-    scroll-behavior: smooth;
-  }
-  
-  .carousel-item img {
-    margin-top: 20%;
-    margin-bottom: 20%;
-    border-radius: 8px;
-    border :#fcfdfd 2% solid;
-    padding: auto;
-    
-    max-width: 100%;
-    height: 300%;  
-    width: auto;    
-    object-fit: contain;  
-  }
-  
-  #loading-animation {
-    position: fixed;
-    z-index: 999;
-    height: 2em;
-    width: 2em;
-    overflow: show;
-    margin: auto;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-  }
-  
-  .loader {
-    border: 0.2em solid #f3f3f3;
-    border-radius: 50%;
-    border-top: 0.2em solid #3498db;
-    width: 1.5em;
-    height: 1.5em;
-    -webkit-animation: spin 1s linear infinite;
-    animation: spin 1s linear infinite;
-  }
-  
-  @-webkit-keyframes spin {
-    0% { -webkit-transform: rotate(0deg); }
-    100% { -webkit-transform: rotate(360deg); }
-  }
-  
-  @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-  }
-  
-  #myVideo {
-    position: relative;
-    right: 0;
-    bottom: 0;
-    min-width: 100%; 
-    min-height: 100%;
-    z-index: 0;
-  }
